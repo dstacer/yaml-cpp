@@ -6,9 +6,6 @@ project "yaml"
    targetdir ("bin/" .. outputdir)
    objdir ("Intermediate/" .. outputdir)
    
-
-   files 
-   { 
 	files
 	{
 		"src/**.h",
@@ -21,7 +18,6 @@ project "yaml"
 	{
 		"include"
 	}
-   }
 
    filter "system:windows"
       systemversion "latest"
