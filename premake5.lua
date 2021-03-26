@@ -6,7 +6,6 @@ project "yaml"
    targetdir ("bin/" .. outputdir)
    objdir ("Intermediate/" .. outputdir)
    
-  
 	files
 	{
 		"src/**.h",
